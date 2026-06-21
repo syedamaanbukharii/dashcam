@@ -1,0 +1,14 @@
+# Core runtime (pure-logic layers depend only on these).
+numpy>=1.24
+pillow>=10.0
+
+# Live application (camera, detection, GUI, voice). Install for full features:
+#   pip install -r requirements.txt
+opencv-python>=4.8
+mediapipe>=0.10.9
+customtkinter>=5.2
+pyttsx3>=2.90
+
+# Optional background removal (uncomment to enable):
+# rembg>=2.0
+# onnxruntime>=1.16
