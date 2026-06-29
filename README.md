@@ -10,7 +10,7 @@ ships with a clean CustomTkinter interface.
 
 > Built around a small, pure-logic core (gesture classification, quality
 > scoring, framing analysis) that is independent of any camera, GUI or deep-
-> learning runtime — see [docs/architecture.md](docs/architecture.md).
+> learning runtime see [docs/architecture.md](docs/architecture.md).
 
 ---
 
