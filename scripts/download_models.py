@@ -6,7 +6,6 @@ start fully offline afterwards:
 
     python scripts/download_models.py
 """
-
 from __future__ import annotations
 
 import sys
@@ -29,9 +28,11 @@ def main() -> int:
             failures += 1
             continue
         print(f"  -> {path}")  # noqa: T201
+
     if failures:
         print(f"{failures} model(s) could not be downloaded.", file=sys.stderr)  # noqa: T201
         return 1
+
     print("All models are ready.")  # noqa: T201
     return 0
 
