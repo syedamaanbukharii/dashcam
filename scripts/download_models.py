@@ -9,7 +9,7 @@ start fully offline afterwards:
 
 from __future__ import annotations
 
-import sys
+import 
 
 # Allow running directly from a checkout without installing the package.
 sys.path.insert(0, ".")
