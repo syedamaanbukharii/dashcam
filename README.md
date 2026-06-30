@@ -3,7 +3,7 @@
 **Touchless camera control through real-time hand-gesture recognition.**
 
 GestureCam Pro turns your webcam into a hands-free camera. Hold up a peace sign
-to take a photo, a thumbs-up to fire a burst, a pinch to start recording — all
+to take a photo, a thumbs-up to fire a burst, a pinch to start recording all
 without touching the keyboard. It runs **fully offline** (after a one-time model
 download), validates framing, focus and expression before it keeps a shot, and
 ships with a clean CustomTkinter interface.
@@ -20,7 +20,7 @@ ships with a clean CustomTkinter interface.
   Pinch and Open Palm, each scored continuously and confirmed across a sliding
   window so a single noisy frame never fires an action.
 * **Configurable gesture → action mapping.** Photo, burst, video toggle,
-  detection lock and exit — remap any of them.
+  detection lock and exit remap any of them.
 * **Countdown & burst.** Optional pre-photo countdown with voice; burst mode
   with an automatic **best-shot** selector.
 * **Face-aware capture.** Live framing guidance ("move closer", "center your
